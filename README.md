@@ -12,24 +12,24 @@
 
 # FinPlugins (Jellyfin catalog)
 
-One repository URL for all **Fin** Jellyfin plugins. Source code and releases stay in their own repos — this repo only hosts the combined catalog manifest.
+One repository URL for all <strong>Fin</strong> Jellyfin plugins. Source code and releases stay in their own repos — this repo only hosts the combined catalog manifest.
 
 ## Install
 
-**Dashboard → Plugins → Repositories** → add:
+<strong>Dashboard → Plugins → Repositories</strong> → add:
    Name: `FinPlugins`
    URL: `https://raw.githubusercontent.com/TidBits16/FinPlugins/main/manifest.json`
-**Catalog** → refresh — you should see **MusicFin**, **ExplicitFin**, **LyricFin**, and **ArtistFin**.
+<strong>Catalog</strong> → refresh — you should see <strong>MusicFin</strong>, <strong>ExplicitFin</strong>, <strong>LyricFin</strong>, and <strong>ArtistFin</strong>.
 Install what you want → restart when asked.
 
 ## Plugins
 
 | | Plugin | Blurb |
 |--|--------|------|
-| <a href="https://github.com/TidBits16/MusicFin"><img src="assets/musicfin.svg" width="32" height="32" alt="MusicFin"></a> | [MusicFin](https://github.com/TidBits16/MusicFin) | Context-based track & album recognition |
-| <a href="https://github.com/TidBits16/ExplicitFin"><img src="assets/explicitfin.svg" width="32" height="32" alt="ExplicitFin"></a> | [ExplicitFin](https://github.com/TidBits16/ExplicitFin) | Adds explicit symbols to track titles |
-| <a href="https://github.com/TidBits16/LyricFin"><img src="assets/lyricfin.svg" width="32" height="32" alt="LyricFin"></a> | [LyricFin](https://github.com/TidBits16/LyricFin) | Timed LRC lyrics |
-| <a href="https://github.com/TidBits16/ArtistFin"><img src="assets/artistfin.svg" width="32" height="32" alt="ArtistFin"></a> | [ArtistFin](https://github.com/TidBits16/ArtistFin) | Artist bios, images, and profile details |
+| <a href="https://github.com/TidBits16/MusicFin"><img src="assets/musicfin.svg" width="32" height="32" alt="MusicFin"></a> | <a href="https://github.com/TidBits16/MusicFin">MusicFin</a> | Context-based track & album recognition |
+| <a href="https://github.com/TidBits16/ExplicitFin"><img src="assets/explicitfin.svg" width="32" height="32" alt="ExplicitFin"></a> | <a href="https://github.com/TidBits16/ExplicitFin">ExplicitFin</a> | Adds explicit symbols to track titles |
+| <a href="https://github.com/TidBits16/LyricFin"><img src="assets/lyricfin.svg" width="32" height="32" alt="LyricFin"></a> | <a href="https://github.com/TidBits16/LyricFin">LyricFin</a> | Timed LRC lyrics |
+| <a href="https://github.com/TidBits16/ArtistFin"><img src="assets/artistfin.svg" width="32" height="32" alt="ArtistFin"></a> | <a href="https://github.com/TidBits16/ArtistFin">ArtistFin</a> | Artist bios, images, and profile details |
 
 ## Updating this catalog
 
