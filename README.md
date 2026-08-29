@@ -1,11 +1,5 @@
 <p align="center">
-  <img src="assets/musicfin.svg" alt="MusicFin" width="72" height="72">
-  &nbsp;
-  <img src="assets/explicitfin.svg" alt="ExplicitFin" width="72" height="72">
-  &nbsp;
-  <img src="assets/lyricfin.svg" alt="LyricFin" width="72" height="72">
-  &nbsp;
-  <img src="assets/artistfin.svg" alt="ArtistFin" width="72" height="72">
+  <img src="assets/fin-family.svg" alt="Fin plugins" width="360">
 </p>
 
 # FinPlugins (Jellyfin catalog)
@@ -37,3 +31,7 @@ After publishing a new plugin release, refresh `manifest.json`:
 ./scripts/sync-manifest.sh
 git add manifest.json && git commit -m "Sync catalog" && git push
 ```
+
+<p align="center">
+  <img src="assets/fin-family.svg" alt="Fin plugins" width="360">
+</p>
