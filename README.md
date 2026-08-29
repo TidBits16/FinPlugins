@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="assets/musicfin.svg" alt="MusicFin" width="72" height="72">
+  &nbsp;
+  <img src="assets/explicitfin.svg" alt="ExplicitFin" width="72" height="72">
+  &nbsp;
+  <img src="assets/lyricfin.svg" alt="LyricFin" width="72" height="72">
+</p>
+
 # FinPlugins (Jellyfin catalog)
 
 One repository URL for all **Fin** Jellyfin plugins. Source code and releases stay in their own repos — this repo only hosts the combined catalog manifest.
@@ -12,11 +20,11 @@ One repository URL for all **Fin** Jellyfin plugins. Source code and releases st
 
 ## Plugins
 
-| Plugin | Repo |
-|--------|------|
-| [MusicFin](https://github.com/TidBits16/MusicFin) | Smarter music tagging |
-| [ExplicitFin](https://github.com/TidBits16/ExplicitFin) | Explicit title marks |
-| [LyricFin](https://github.com/TidBits16/LyricFin) | Timed LRC lyrics |
+| | Plugin | Repo |
+|--|--------|------|
+| <img src="assets/musicfin.svg" width="32" height="32" alt=""> | [MusicFin](https://github.com/TidBits16/MusicFin) | Context-based track & album recognition |
+| <img src="assets/explicitfin.svg" width="32" height="32" alt=""> | [ExplicitFin](https://github.com/TidBits16/ExplicitFin) | Adds explicit symbols to track titles |
+| <img src="assets/lyricfin.svg" width="32" height="32" alt=""> | [LyricFin](https://github.com/TidBits16/LyricFin) | Timed LRC lyrics |
 
 ## Updating this catalog
 
