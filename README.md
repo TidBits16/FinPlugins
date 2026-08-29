@@ -1,3 +1,5 @@
+<div align="center">
+
 <p align="center">
   <a href="https://github.com/TidBits16/MusicFin"><img src="assets/musicfin.svg" alt="MusicFin" width="72" height="72"></a>
   &nbsp;
@@ -47,3 +49,4 @@ git add manifest.json && git commit -m "Sync catalog" && git push
   &nbsp;
   <a href="https://github.com/TidBits16/ArtistFin"><img src="assets/artistfin.svg" alt="ArtistFin" width="72" height="72"></a>
 </p>
+</div>
