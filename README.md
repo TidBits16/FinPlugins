@@ -16,10 +16,11 @@ One repository URL for all <strong>Fin</strong> Jellyfin plugins. Source code an
 
 ## Install
 
-<strong>Dashboard → Plugins → Repositories</strong> → add:
-   Name: `FinPlugins`
-   URL: `https://raw.githubusercontent.com/TidBits16/FinPlugins/main/manifest.json`
-<strong>Catalog</strong> → refresh — you should see <strong>MusicFin</strong>, <strong>ExplicitFin</strong>, <strong>LyricFin</strong>, and <strong>ArtistFin</strong>.
+<strong>Dashboard → Plugins → Repositories</strong> → add:<br>
+Name: <code>FinPlugins</code><br>
+URL: <code>https://raw.githubusercontent.com/TidBits16/FinPlugins/main/manifest.json</code><br>
+<br>
+<strong>Catalog</strong> → refresh — you should see <strong>MusicFin</strong>, <strong>ExplicitFin</strong>, <strong>LyricFin</strong>, and <strong>ArtistFin</strong>.<br>
 Install what you want → restart when asked.
 
 ## Plugins
