@@ -1,11 +1,11 @@
-# Fin Plugins (Jellyfin catalog)
+# FinPlugins (Jellyfin catalog)
 
 One repository URL for all **Fin** Jellyfin plugins. Source code and releases stay in their own repos — this repo only hosts the combined catalog manifest.
 
 ## Install
 
 1. **Dashboard → Plugins → Repositories** → add:
-   - Name: `Fin Plugins`
+   - Name: `FinPlugins`
    - URL: `https://raw.githubusercontent.com/TidBits16/FinPlugins/main/manifest.json`
 2. **Catalog** → refresh — you should see **MusicFin**, **ExplicitFin**, and **LyricFin**.
 3. Install what you want → restart when asked.
