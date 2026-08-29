@@ -12,16 +12,16 @@
 
 # FinPlugins (Jellyfin catalog)
 
-One repository URL for all <strong>Fin</strong> Jellyfin plugins. Source code and releases stay in their own repos — this repo only hosts the combined catalog manifest.
+One repository URL to rule them <strong>all!</stronge> This is my collection of JellyFin plugins (the "Fin-Family" if you will). These are all designed to work with eachother and replace the default Jellyfin music identification scripts. Check out their repos for more details!
 
 ## Install
 
-<strong>Dashboard → Plugins → Repositories</strong> → add:<br>
+<strong>Dashboard --> Plugins --> Repositories</strong> --> add:<br>
 Name: <code>FinPlugins</code><br>
 URL: <code>https://raw.githubusercontent.com/TidBits16/FinPlugins/main/manifest.json</code><br>
 <br>
-<strong>Catalog</strong> → refresh — you should see <strong>MusicFin</strong>, <strong>ExplicitFin</strong>, <strong>LyricFin</strong>, and <strong>ArtistFin</strong>.<br>
-Install what you want → restart when asked.
+<strong>Catalog</strong> --> refresh - you should see <strong>MusicFin</strong>, <strong>ExplicitFin</strong>, <strong>LyricFin</strong>, and <strong>ArtistFin</strong>.<br>
+Install what you want --> restart when asked :D
 
 ## Plugins
 
@@ -34,7 +34,7 @@ Install what you want → restart when asked.
 
 ## Updating this catalog
 
-After publishing a new plugin release, refresh `manifest.json`:
+After publishing a new plugin release, you'll need to refresh `manifest.json`:
 
 ```bash
 ./scripts/sync-manifest.sh
