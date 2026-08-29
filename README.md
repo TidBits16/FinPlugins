@@ -12,7 +12,7 @@
 
 # FinPlugins (Jellyfin catalog)
 
-One repository URL to rule them <strong>all!</stronge> This is my collection of JellyFin plugins (the "Fin-Family" if you will). These are all designed to work with eachother and replace the default Jellyfin music identification scripts. Check out their repos for more details!
+One repository URL to rule them <strong>all!</strong> This is my collection of JellyFin plugins (the "Fin-Family" if you will). These are all designed to work with eachother and replace the default Jellyfin music identification scripts. Check out their repos for more details!
 
 ## Install
 
