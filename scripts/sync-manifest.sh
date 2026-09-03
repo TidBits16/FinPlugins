@@ -11,9 +11,13 @@ from pathlib import Path
 repos = ("MusicFin", "ExplicitFin", "LyricFin", "ArtistFin")
 plugins = []
 for name in repos:
-    local = Path.home() / "Desktop" / name / "manifest.json"
+    candidates = (
+        Path.home() / "Desktop" / "FinFamily" / name / "manifest.json",
+        Path.home() / "Desktop" / name / "manifest.json",
+    )
+    local = next((p for p in candidates if p.is_file()), None)
     data = None
-    if local.is_file():
+    if local is not None:
         data = json.loads(local.read_text())
     else:
         url = f"https://raw.githubusercontent.com/TidBits16/{name}/main/manifest.json"

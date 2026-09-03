@@ -20,6 +20,11 @@ One repository URL to rule them <strong>all!</strong> This is my collection of J
 Name: <code>FinPlugins</code><br>
 URL: <code>https://raw.githubusercontent.com/TidBits16/FinPlugins/main/manifest.json</code><br>
 <br>
+For just <strong>MusicFin</strong> you can use this URL: <code>https://raw.githubusercontent.com/TidBits16/MusicFin/main/manifest.json</code><br>
+For just <strong>ExplicitFin</strong> you can use this URL: <code>https://raw.githubusercontent.com/TidBits16/ExplicitFin/main/manifest.json</code><br>
+For just <strong>LyricFin</strong> you can use this URL: <code>https://raw.githubusercontent.com/TidBits16/LyricFin/main/manifest.json</code><br>
+For just <strong>ArtistFin</strong> you can use this URL: <code>https://raw.githubusercontent.com/TidBits16/ArtistFin/main/manifest.json</code><br>
+<br>
 <strong>Catalog</strong> --> refresh - you should see <strong>MusicFin</strong>, <strong>ExplicitFin</strong>, <strong>LyricFin</strong>, and <strong>ArtistFin</strong>.<br>
 Install what you want --> restart when asked :D
 
@@ -40,6 +45,8 @@ After publishing a new plugin release, you'll need to refresh `manifest.json`:
 ./scripts/sync-manifest.sh
 git add manifest.json && git commit -m "Sync catalog" && git push
 ```
+
+Licensed under the <a href="LICENSE">GNU General Public License v3.0</a>
 
 <p align="center">
   <a href="https://github.com/TidBits16/MusicFin"><img src="assets/musicfin.svg" alt="MusicFin" width="72" height="72"></a>
