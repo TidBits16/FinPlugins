@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/TidBits16/MusicFin/main/backdrop.svg",
     "versions": [
       {
+        "version": "1.8.7.0",
+        "changelog": "Default schedule: weekly, Sunday at 2:00 AM.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.7.0/MusicFin_1.8.7.0.zip",
+        "checksum": "bfbf7bc7181387b37aa594ad5edeafea",
+        "timestamp": "2026-09-03T01:39:08Z"
+      },
+      {
         "version": "1.8.6.0",
         "changelog": "Write matched album covers from catalog providers (Deezer, iTunes, Discogs, MusicBrainz CAA).",
         "targetAbi": "10.11.0.0",
@@ -132,6 +140,14 @@
     "imageUrl": "https://raw.githubusercontent.com/TidBits16/ExplicitFin/main/backdrop.svg",
     "versions": [
       {
+        "version": "2.1.1.0",
+        "changelog": "Default schedule: daily at 2:00 AM.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v2.1.1.0/explicitfin_2.1.1.0.zip",
+        "checksum": "33ff7cfbdcac5b701408a756e6a332ad",
+        "timestamp": "2026-09-03T01:39:08Z"
+      },
+      {
         "version": "2.1.0.0",
         "changelog": "Mark albums from Deezer or a track threshold, keep hand-added marks, skip decided tracks on scheduled runs, and force-refresh from Advanced.",
         "targetAbi": "10.11.0.0",
@@ -247,6 +263,14 @@
     "imageUrl": "https://raw.githubusercontent.com/TidBits16/LyricFin/main/backdrop.svg",
     "versions": [
       {
+        "version": "1.1.0.0",
+        "changelog": "Optional swear-word censoring, and weekly Sunday 2:00 AM default schedule.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.1.0.0/lyricfin_1.1.0.0.zip",
+        "checksum": "c1ee2e8a1e9c2e0d75024695db561dce",
+        "timestamp": "2026-09-03T01:39:09Z"
+      },
+      {
         "version": "1.0.8.0",
         "changelog": "Use a single scheduled task; force-fetch from settings queues that same task.",
         "targetAbi": "10.11.0.0",
@@ -329,6 +353,14 @@
     "category": "Metadata",
     "imageUrl": "https://raw.githubusercontent.com/TidBits16/ArtistFin/main/backdrop.svg",
     "versions": [
+      {
+        "version": "1.2.0.0",
+        "changelog": "Writes toggles, Last.fm key only when enabled, and weekly Sunday 2:00 AM default schedule.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TidBits16/ArtistFin/releases/download/v1.2.0.0/artistfin_1.2.0.0.zip",
+        "checksum": "e18bf345880b8cc0c58a99c55276ac35",
+        "timestamp": "2026-09-03T01:39:09Z"
+      },
       {
         "version": "1.1.0.0",
         "changelog": "Last.fm short bios (API key), Deezer portraits, and one scheduled task (force refresh from settings).",
