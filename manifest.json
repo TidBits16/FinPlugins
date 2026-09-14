@@ -1,13 +1,21 @@
 [
   {
     "guid": "ade80bea-e92e-4f2c-9a42-f5bf88bffa98",
-    "name": "- MusicFin: Smarter Music Tagging",
+    "name": "MusicFin: Smarter Music Tagging",
     "description": "Context-based track & album recognition.",
     "overview": "Context-based track & album recognition.",
     "owner": "TidBits16",
     "category": "Metadata",
     "imageUrl": "https://raw.githubusercontent.com/TidBits16/MusicFin/main/backdrop.svg",
     "versions": [
+      {
+        "version": "1.8.11.0",
+        "changelog": "Keep - prefix on scheduled task only; Discogs-first lookup and first-provider genre writes.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.11.0/MusicFin_1.8.11.0.zip",
+        "checksum": "43c3baaa3907d0bc22348c0329ad860d",
+        "timestamp": "2026-09-14T15:42:19Z"
+      },
       {
         "version": "1.8.10.0",
         "changelog": "Discogs-first lookup with Deezer fallback; genres only from the first provider (force rewrite); sort name with - prefix.",
@@ -156,13 +164,21 @@
   },
   {
     "guid": "f41c8e2d-6b3a-4d9e-8f1c-0a2b3c4d5e6f",
-    "name": "- ExplicitFin: Mark Your Songs",
+    "name": "ExplicitFin: Mark Your Songs",
     "description": "Adds explicit symbols to track and album titles.",
     "overview": "Adds explicit symbols to track titles.",
     "owner": "TidBits16",
     "category": "Metadata",
     "imageUrl": "https://raw.githubusercontent.com/TidBits16/ExplicitFin/main/backdrop.svg",
     "versions": [
+      {
+        "version": "2.1.4.0",
+        "changelog": "Keep - prefix on scheduled task only (plugin catalog name unchanged).",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v2.1.4.0/explicitfin_2.1.4.0.zip",
+        "checksum": "ddf7470995f3bb8ee163e2d1c7acb1f5",
+        "timestamp": "2026-09-14T15:42:30Z"
+      },
       {
         "version": "2.1.3.0",
         "changelog": "Sort plugin/task name to the bottom with a - prefix.",
@@ -295,13 +311,21 @@
   },
   {
     "guid": "59dd884e-2511-4dbf-8f89-761c3e2e0dee",
-    "name": "- LyricFin: Get Timed Lyrics",
+    "name": "LyricFin: Get Timed Lyrics",
     "description": "Fetches timed LRC lyrics from LRCLIB for your music library.",
     "overview": "Timed LRC lyrics via LRCLIB.",
     "owner": "TidBits16",
     "category": "Metadata",
     "imageUrl": "https://raw.githubusercontent.com/TidBits16/LyricFin/main/backdrop.svg",
     "versions": [
+      {
+        "version": "1.2.5.0",
+        "changelog": "Keep - prefix on scheduled task only (plugin catalog name unchanged).",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.2.5.0/lyricfin_1.2.5.0.zip",
+        "checksum": "2d22e65a20e559100923dc198c5ca97a",
+        "timestamp": "2026-09-14T15:42:34Z"
+      },
       {
         "version": "1.2.4.0",
         "changelog": "Sort plugin/task name to the bottom with a - prefix.",
@@ -426,13 +450,21 @@
   },
   {
     "guid": "0cad762c-9696-4573-8fa8-ad33f3e5d167",
-    "name": "- ArtistFin: Know Your Artists",
+    "name": "ArtistFin: Know Your Artists",
     "description": "Fills artist bios, images, and profile details.",
     "overview": "Fills artist bios, images, and profile details.",
     "owner": "TidBits16",
     "category": "Metadata",
     "imageUrl": "https://raw.githubusercontent.com/TidBits16/ArtistFin/main/backdrop.svg",
     "versions": [
+      {
+        "version": "1.2.3.0",
+        "changelog": "Keep - prefix on scheduled task only (plugin catalog name unchanged).",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TidBits16/ArtistFin/releases/download/v1.2.3.0/artistfin_1.2.3.0.zip",
+        "checksum": "e73e1f9d8782efe43c32228246c3a12a",
+        "timestamp": "2026-09-14T15:42:24Z"
+      },
       {
         "version": "1.2.2.0",
         "changelog": "Sort plugin/task name to the bottom with a - prefix.",
