@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/TidBits16/MusicFin/main/backdrop.svg",
     "versions": [
       {
+        "version": "1.8.12.0",
+        "changelog": "Rename internal assembly/namespace from DeezerTagger to MusicFin; cache folder musicfin.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.12.0/MusicFin_1.8.12.0.zip",
+        "checksum": "712bce57d1f14b24ae4bab17b92168d5",
+        "timestamp": "2026-09-14T15:52:02Z"
+      },
+      {
         "version": "1.8.11.0",
         "changelog": "Keep - prefix on scheduled task only; Discogs-first lookup and first-provider genre writes.",
         "targetAbi": "10.11.0.0",
@@ -122,7 +130,7 @@
       },
       {
         "version": "1.5.0.0",
-        "changelog": "Album fitness = matchCount × completion² so full albums beat half-covered tour sets/collections while fully owned EPs still rank above sparse big releases.",
+        "changelog": "Album fitness = matchCount \u00d7 completion\u00b2 so full albums beat half-covered tour sets/collections while fully owned EPs still rank above sparse big releases.",
         "targetAbi": "10.11.0.0",
         "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.5/MusicFin_1.5.zip",
         "checksum": "594da203700b6ec309b091538bc8935f",
@@ -293,7 +301,7 @@
       },
       {
         "version": "2.0.0.0",
-        "changelog": "Simplify to title marking: Deezer→MusicBrainz search, dual-version preference, change log. Drop tags, album marks, Apple Music, playlist repair, disk cache.",
+        "changelog": "Simplify to title marking: Deezer\u2192MusicBrainz search, dual-version preference, change log. Drop tags, album marks, Apple Music, playlist repair, disk cache.",
         "targetAbi": "10.11.0.0",
         "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v2.0.0.0/explicitfin_2.0.0.0.zip",
         "checksum": "bb40b93f34b695d7eee46685f68ec609",
