@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/TidBits16/MusicFin/main/backdrop.svg",
     "versions": [
       {
+        "version": "1.8.26.0",
+        "changelog": "Keep ExplicitFin marks when album titles only differ by IgnoreTitleMarkers; shared FinCommon HTTP; rename-guard cleanup.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.26.0/MusicFin_1.8.26.0.zip",
+        "checksum": "d98799f9fa1d936b09412f0396394585",
+        "timestamp": "2026-09-15T14:30:06Z"
+      },
+      {
         "version": "1.8.25.0",
         "changelog": "Separate Artist genres toggle; remove Force rewrite genres checkbox (overwrite only via Force Refresh).",
         "targetAbi": "10.11.0.0",
@@ -284,6 +292,14 @@
     "imageUrl": "https://raw.githubusercontent.com/TidBits16/ExplicitFin/main/backdrop.svg",
     "versions": [
       {
+        "version": "2.1.10.0",
+        "changelog": "Shared FinCommon HTTP cache/client; simplify title marker stripping.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v2.1.10.0/explicitfin_2.1.10.0.zip",
+        "checksum": "c76e4aede7ba5f0e0ab5287a9bfe7d86",
+        "timestamp": "2026-09-15T14:30:23Z"
+      },
+      {
         "version": "2.1.9.0",
         "changelog": "Solid primary backdrop; horizontal logo+title lockup; italic FinFamily tagline.",
         "targetAbi": "10.11.0.0",
@@ -471,6 +487,14 @@
     "imageUrl": "https://raw.githubusercontent.com/TidBits16/LyricFin/main/backdrop.svg",
     "versions": [
       {
+        "version": "1.2.12.0",
+        "changelog": "Shared FinCommon HTTP cache/client; simplify title marker stripping.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.2.12.0/lyricfin_1.2.12.0.zip",
+        "checksum": "017f867aa6b93200027cb5c9a68be767",
+        "timestamp": "2026-09-15T14:30:11Z"
+      },
+      {
         "version": "1.2.11.0",
         "changelog": "Whole-word blacklist censoring only (split on spaces/hyphens \u2014 ass does not match glass). Dropped stem/Root matching and the whitelist; add missed words in settings. Defaults include damn/dammit.",
         "targetAbi": "10.11.0.0",
@@ -657,6 +681,14 @@
     "category": "Metadata",
     "imageUrl": "https://raw.githubusercontent.com/TidBits16/ArtistFin/main/backdrop.svg",
     "versions": [
+      {
+        "version": "1.2.10.0",
+        "changelog": "Shared FinCommon HTTP cache/client.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TidBits16/ArtistFin/releases/download/v1.2.10.0/artistfin_1.2.10.0.zip",
+        "checksum": "399bf70c442146758264948d213b85b4",
+        "timestamp": "2026-09-15T14:30:18Z"
+      },
       {
         "version": "1.2.9.0",
         "changelog": "Stop writing artist genres (MusicFin now rolls track genres up to artists instead).",
