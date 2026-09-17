@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/TidBits16/MusicFin/main/backdrop.svg",
     "versions": [
       {
+        "version": "1.8.35.0",
+        "changelog": "Settings page polish: clearer helpers, grouped toggles, styled Advanced / force-refresh sections.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.35.0/MusicFin_1.8.35.0.zip",
+        "checksum": "42aaf975d52978f37838a8516f385f4c",
+        "timestamp": "2026-09-17T13:33:00Z"
+      },
+      {
         "version": "1.8.34.0",
         "changelog": "Standardize Genres setting (split Classical: World, fix typos, drop junk); keep AI Generated as a genre; album-first folder matching; block foreign cover-single artist credits (e.g. Byrne on SOUR).",
         "targetAbi": "10.11.0.0",
@@ -356,6 +364,14 @@
     "imageUrl": "https://raw.githubusercontent.com/TidBits16/ExplicitFin/main/backdrop.svg",
     "versions": [
       {
+        "version": "2.1.13.0",
+        "changelog": "Settings page polish: clearer helpers, grouped toggles, styled Advanced / force-refresh sections.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v2.1.13.0/explicitfin_2.1.13.0.zip",
+        "checksum": "a51dc9ffe33697e94ed4a361eba4989a",
+        "timestamp": "2026-09-17T13:33:13Z"
+      },
+      {
         "version": "2.1.12.0",
         "changelog": "Skip undecided explicit lookups until cache TTL; cache HTTP 404s.",
         "targetAbi": "10.11.0.0",
@@ -566,6 +582,14 @@
     "category": "Metadata",
     "imageUrl": "https://raw.githubusercontent.com/TidBits16/LyricFin/main/backdrop.svg",
     "versions": [
+      {
+        "version": "1.2.17.0",
+        "changelog": "Settings page polish: clearer helpers, grouped toggles, styled Advanced / force-refresh sections.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.2.17.0/lyricfin_1.2.17.0.zip",
+        "checksum": "710cd55d2badae2d4cdeec68b854b13d",
+        "timestamp": "2026-09-17T13:33:03Z"
+      },
       {
         "version": "1.2.16.0",
         "changelog": "Treat apostrophes as word separators (shit's \u2192 shit, fuckin' \u2192 fuckin); -in still matches -ing list entries.",
@@ -793,6 +817,14 @@
     "category": "Metadata",
     "imageUrl": "https://raw.githubusercontent.com/TidBits16/ArtistFin/main/backdrop.svg",
     "versions": [
+      {
+        "version": "1.2.13.0",
+        "changelog": "Settings page polish: clearer helpers, grouped toggles, styled Advanced / force-refresh sections.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TidBits16/ArtistFin/releases/download/v1.2.13.0/artistfin_1.2.13.0.zip",
+        "checksum": "e4f5430d1aba2ed65482f151000dadb1",
+        "timestamp": "2026-09-17T13:33:08Z"
+      },
       {
         "version": "1.2.12.0",
         "changelog": "Skip artists with no usable profile until cache TTL; cache HTTP 404s.",
