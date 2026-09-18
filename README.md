@@ -14,6 +14,8 @@
 
 One repository URL for the <strong>TagShelf</strong> collection of Jellyfin plugins. These plugins work together and can replace the default Jellyfin music identification flow. Check each repo for details.
 
+> <strong>LLM disclosure:</strong> TagShelf plugins are <strong>primarily developed with LLM assistance</strong> (Cursor / coding agents). Review and test before relying on them in production. This notice follows Jellyfin community guidance for sharing LLM-developed tools.
+
 > Formerly published as <strong>FinPlugins</strong> / MusicFin / ExplicitFin / LyricFin / ArtistFin. Same plugin GUIDs — your settings carry over.
 
 ## Install
