@@ -8,10 +8,11 @@ import json
 import urllib.request
 from pathlib import Path
 
-repos = ("MusicFin", "ExplicitFin", "LyricFin", "ArtistFin")
+repos = ("MusicTagShelf", "ExplicitTagShelf", "LyricTagShelf", "ArtistTagShelf")
 plugins = []
 for name in repos:
     candidates = (
+        Path.home() / "Desktop" / "TagShelf" / name / "manifest.json",
         Path.home() / "Desktop" / "FinFamily" / name / "manifest.json",
         Path.home() / "Desktop" / name / "manifest.json",
     )

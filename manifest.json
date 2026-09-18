@@ -1,18 +1,26 @@
 [
   {
     "guid": "ade80bea-e92e-4f2c-9a42-f5bf88bffa98",
-    "name": "MusicFin: Smarter Music Tagging",
+    "name": "MusicTagShelf: Smarter Music Tagging",
     "description": "Context-based track & album recognition.",
     "overview": "Context-based track & album recognition.",
     "owner": "TidBits16",
     "category": "Metadata",
-    "imageUrl": "https://raw.githubusercontent.com/TidBits16/MusicFin/main/backdrop.svg",
+    "imageUrl": "https://raw.githubusercontent.com/TidBits16/MusicTagShelf/main/backdrop.svg",
     "versions": [
+      {
+        "version": "1.9.0.0",
+        "changelog": "Rebrand from MusicFin to MusicTagShelf; new TagShelf logo (no Jellyfin mark); migrate HTTP cache folder.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.9.0.0/MusicTagShelf_1.9.0.0.zip",
+        "checksum": "63494db3ac1184260a08d16a91ca059f",
+        "timestamp": "2026-09-18T16:05:38Z"
+      },
       {
         "version": "1.8.38.0",
         "changelog": "Refill genres on normal runs when tracks have none (settled skip no longer blocks empty genres).",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.38.0/MusicFin_1.8.38.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.38.0/MusicFin_1.8.38.0.zip",
         "checksum": "2fa03d586847bb837a4ee941f006ebf3",
         "timestamp": "2026-09-17T18:09:04Z"
       },
@@ -20,7 +28,7 @@
         "version": "1.8.37.0",
         "changelog": "Fix genre writes: replace messy local lists with provider genres instead of merging leftovers; clear all-junk tags.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.37.0/MusicFin_1.8.37.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.37.0/MusicFin_1.8.37.0.zip",
         "checksum": "42eb663e656b4325970d59dcb137faee",
         "timestamp": "2026-09-17T17:50:56Z"
       },
@@ -28,7 +36,7 @@
         "version": "1.8.36.0",
         "changelog": "Simultaneous-run safety: preserve explicit marks on album renames, album re-mark when tracks seen, shared Deezer/MusicBrainz pace, staggered Sunday defaults.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.36.0/MusicFin_1.8.36.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.36.0/MusicFin_1.8.36.0.zip",
         "checksum": "d5d37f5edf5195e5fc3fbf2e5f9a3a48",
         "timestamp": "2026-09-17T15:05:13Z"
       },
@@ -36,7 +44,7 @@
         "version": "1.8.35.0",
         "changelog": "Settings page polish: clearer helpers, grouped toggles, styled Advanced / force-refresh sections.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.35.0/MusicFin_1.8.35.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.35.0/MusicFin_1.8.35.0.zip",
         "checksum": "42aaf975d52978f37838a8516f385f4c",
         "timestamp": "2026-09-17T13:33:00Z"
       },
@@ -44,7 +52,7 @@
         "version": "1.8.34.0",
         "changelog": "Standardize Genres setting (split Classical: World, fix typos, drop junk); keep AI Generated as a genre; album-first folder matching; block foreign cover-single artist credits (e.g. Byrne on SOUR).",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.34.0/MusicFin_1.8.34.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.34.0/MusicFin_1.8.34.0.zip",
         "checksum": "31094ab3c120b50a518d8489a767a60d",
         "timestamp": "2026-09-16T21:01:04Z"
       },
@@ -52,7 +60,7 @@
         "version": "1.8.33.0",
         "changelog": "Deezer-only by default (Discogs off); restore Seven/Mary EP names; keep singles out of larger LPs; prefer Deezer covers over Discogs scans.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.33.0/MusicFin_1.8.33.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.33.0/MusicFin_1.8.33.0.zip",
         "checksum": "f1d22a48ccfb40db0be7f29d156f156b",
         "timestamp": "2026-09-16T19:25:53Z"
       },
@@ -60,7 +68,7 @@
         "version": "1.8.32.0",
         "changelog": "Cleaner genres (drop junk, fix splits); Discogs styles when Deezer is only Pop/Rock/Alternative; skip failed lookups until cache TTL.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.32.0/MusicFin_1.8.32.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.32.0/MusicFin_1.8.32.0.zip",
         "checksum": "c488c03faa232b87fa5eea568f1800e7",
         "timestamp": "2026-09-16T15:27:20Z"
       },
@@ -68,7 +76,7 @@
         "version": "1.8.31.0",
         "changelog": "HTTP caches last 30 days; force refresh clears cache; expired lookups re-fetch individually.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.31.0/MusicFin_1.8.31.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.31.0/MusicFin_1.8.31.0.zip",
         "checksum": "f714c83381e429cb02e05138cc364920",
         "timestamp": "2026-09-16T15:07:30Z"
       },
@@ -76,7 +84,7 @@
         "version": "1.8.30.0",
         "changelog": "Default to Deezer (cleaner covers) with Discogs fallback; preserve library artist casing (NF vs nf, femtanyl).",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.30.0/MusicFin_1.8.30.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.30.0/MusicFin_1.8.30.0.zip",
         "checksum": "b737d651b38bb85fa7dfd024bc82d4bc",
         "timestamp": "2026-09-15T21:13:31Z"
       },
@@ -84,7 +92,7 @@
         "version": "1.8.29.0",
         "changelog": "Keep separate EP folder names (Seven / Mary) when catalog only has a combo like Seven + Mary.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.29.0/MusicFin_1.8.29.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.29.0/MusicFin_1.8.29.0.zip",
         "checksum": "b4a8dafe6ec434890e2ac41fec961b8a",
         "timestamp": "2026-09-15T20:26:16Z"
       },
@@ -92,7 +100,7 @@
         "version": "1.8.28.0",
         "changelog": "Faster scheduled runs: parallel Discogs/MusicBrainz fetches, skip settled artists, cache empty provider lookups, cheaper cover majority checks.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.28.0/MusicFin_1.8.28.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.28.0/MusicFin_1.8.28.0.zip",
         "checksum": "e4602eda34f2e6a52e4ef3628207065f",
         "timestamp": "2026-09-15T16:52:52Z"
       },
@@ -100,15 +108,15 @@
         "version": "1.8.27.0",
         "changelog": "Match using on-disk file/folder names so wrong Jellyfin tags (e.g. Live in '25) can self-heal.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.27.0/MusicFin_1.8.27.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.27.0/MusicFin_1.8.27.0.zip",
         "checksum": "8dba8f087e1cf7f73c27e536b13a641a",
         "timestamp": "2026-09-15T16:26:35Z"
       },
       {
         "version": "1.8.26.0",
-        "changelog": "Keep ExplicitFin marks when album titles only differ by IgnoreTitleMarkers; shared FinCommon HTTP; rename-guard cleanup.",
+        "changelog": "Keep ExplicitTagShelf marks when album titles only differ by IgnoreTitleMarkers; shared TagShelfCommon HTTP; rename-guard cleanup.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.26.0/MusicFin_1.8.26.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.26.0/MusicFin_1.8.26.0.zip",
         "checksum": "d98799f9fa1d936b09412f0396394585",
         "timestamp": "2026-09-15T14:30:06Z"
       },
@@ -116,7 +124,7 @@
         "version": "1.8.25.0",
         "changelog": "Separate Artist genres toggle; remove Force rewrite genres checkbox (overwrite only via Force Refresh).",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.25.0/MusicFin_1.8.25.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.25.0/MusicFin_1.8.25.0.zip",
         "checksum": "ecd5fba44d858619c805e0b5d67b6dd6",
         "timestamp": "2026-09-15T13:34:12Z"
       },
@@ -124,7 +132,7 @@
         "version": "1.8.24.0",
         "changelog": "Roll track genres up onto MusicArtist entities (union of that artist's track genres). Album/track genre overwrite still only on Force rewrite / Force Refresh.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.24.0/MusicFin_1.8.24.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.24.0/MusicFin_1.8.24.0.zip",
         "checksum": "db93848c5c85c7aaabada725bed3cb36",
         "timestamp": "2026-09-15T13:29:13Z"
       },
@@ -132,7 +140,7 @@
         "version": "1.8.23.0",
         "changelog": "Match each album folder on its own tracks (Seven/Mary stay separate EPs; a single-track folder stays a single). Combo releases only win when both halves share one folder.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.23.0/MusicFin_1.8.23.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.23.0/MusicFin_1.8.23.0.zip",
         "checksum": "1940adbc2e9d62dc757604d61308242b",
         "timestamp": "2026-09-15T13:22:07Z"
       },
@@ -140,7 +148,7 @@
         "version": "1.8.22.0",
         "changelog": "Prefer studio-album consensus inside multi-track folders so lead singles (e.g. drivers license, the cure) do not steal track numbers, album titles, or covers; standalone single folders stay singles.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.22.0/MusicFin_1.8.22.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.22.0/MusicFin_1.8.22.0.zip",
         "checksum": "95bc270cc6ddac5edbf65cd66575a71d",
         "timestamp": "2026-09-14T19:01:28Z"
       },
@@ -148,7 +156,7 @@
         "version": "1.8.21.0",
         "changelog": "Prefer studio albums over singles, compilations, live tours, and deluxe editions (fixes Classics Collection / SOUR / GUTS spilled / The Land live). Sorry \u2014 1.8.20.0 missed several of these secondary-release cases.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.21.0/MusicFin_1.8.21.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.21.0/MusicFin_1.8.21.0.zip",
         "checksum": "6ad1b066365e65f56cc80d82f40ecabb",
         "timestamp": "2026-09-14T16:54:21Z"
       },
@@ -156,31 +164,31 @@
         "version": "1.8.20.0",
         "changelog": "Fix album title collapse: keep (Live) distinct from studio; prefer local album tags; don't demote THE X to X.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.20.0/MusicFin_1.8.20.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.20.0/MusicFin_1.8.20.0.zip",
         "checksum": "c3fac8a678e01bd5b50c9cc55bd929eb",
         "timestamp": "2026-09-14T16:43:50Z"
       },
       {
         "version": "1.8.19.0",
-        "changelog": "Solid primary backdrop; horizontal logo+title lockup; italic FinFamily tagline.",
+        "changelog": "Solid primary backdrop; horizontal logo+title lockup; italic TagShelf tagline.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.19.0/MusicFin_1.8.19.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.19.0/MusicFin_1.8.19.0.zip",
         "checksum": "fc554e2cecb35fc88a623ea68349336c",
         "timestamp": "2026-09-14T16:30:30Z"
       },
       {
         "version": "1.8.18.0",
-        "changelog": "Horizontal logo+title lockup; full-opacity FinFamily tagline under title.",
+        "changelog": "Horizontal logo+title lockup; full-opacity TagShelf tagline under title.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.18.0/MusicFin_1.8.18.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.18.0/MusicFin_1.8.18.0.zip",
         "checksum": "fc564330139fc9725908d1c5536f8b12",
         "timestamp": "2026-09-14T16:24:37Z"
       },
       {
         "version": "1.8.17.0",
-        "changelog": "Move FinFamily tagline below title on backdrop.",
+        "changelog": "Move TagShelf tagline below title on backdrop.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.17.0/MusicFin_1.8.17.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.17.0/MusicFin_1.8.17.0.zip",
         "checksum": "3bf3699360431a8f1a3ba5120c451eff",
         "timestamp": "2026-09-14T16:22:31Z"
       },
@@ -188,23 +196,23 @@
         "version": "1.8.16.0",
         "changelog": "Clarify Force Refresh copy: wipes cache; normal runs reuse provider cache.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.16.0/MusicFin_1.8.16.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.16.0/MusicFin_1.8.16.0.zip",
         "checksum": "3f17255e949384cc8b9acb862bbde27b",
         "timestamp": "2026-09-14T16:15:32Z"
       },
       {
         "version": "1.8.15.0",
-        "changelog": "Add FinFamily tagline under logo on backdrop.",
+        "changelog": "Add TagShelf tagline under logo on backdrop.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.15.0/MusicFin_1.8.15.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.15.0/MusicFin_1.8.15.0.zip",
         "checksum": "c1e7a6b8353d97f3bfdc450a99b886cc",
         "timestamp": "2026-09-14T16:14:41Z"
       },
       {
         "version": "1.8.14.0",
-        "changelog": "Center logo + title on backdrop; fix ExplicitFin cutoff.",
+        "changelog": "Center logo + title on backdrop; fix ExplicitTagShelf cutoff.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.14.0/MusicFin_1.8.14.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.14.0/MusicFin_1.8.14.0.zip",
         "checksum": "76085ffaa4cf6749a0e7aaef0ff322ff",
         "timestamp": "2026-09-14T16:12:42Z"
       },
@@ -212,15 +220,15 @@
         "version": "1.8.13.0",
         "changelog": "Add Force Refresh All Music (clears cache, overwrites genres/covers).",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.13.0/MusicFin_1.8.13.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.13.0/MusicFin_1.8.13.0.zip",
         "checksum": "772625d1f7c40330449fe34c073aa3f7",
         "timestamp": "2026-09-14T16:08:12Z"
       },
       {
         "version": "1.8.12.0",
-        "changelog": "Rename internal assembly/namespace from DeezerTagger to MusicFin; cache folder musicfin.",
+        "changelog": "Rename internal assembly/namespace from DeezerTagger to MusicTagShelf; cache folder musictagshelf.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.12.0/MusicFin_1.8.12.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.12.0/MusicFin_1.8.12.0.zip",
         "checksum": "712bce57d1f14b24ae4bab17b92168d5",
         "timestamp": "2026-09-14T15:52:02Z"
       },
@@ -228,7 +236,7 @@
         "version": "1.8.11.0",
         "changelog": "Keep - prefix on scheduled task only; Discogs-first lookup and first-provider genre writes.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.11.0/MusicFin_1.8.11.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.11.0/MusicFin_1.8.11.0.zip",
         "checksum": "43c3baaa3907d0bc22348c0329ad860d",
         "timestamp": "2026-09-14T15:42:19Z"
       },
@@ -236,7 +244,7 @@
         "version": "1.8.10.0",
         "changelog": "Discogs-first lookup with Deezer fallback; genres only from the first provider (force rewrite); sort name with - prefix.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.10.0/MusicFin_1.8.10.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.10.0/MusicFin_1.8.10.0.zip",
         "checksum": "0125b8fdf4fc6fd4c63996aef12407c0",
         "timestamp": "2026-09-14T15:24:44Z"
       },
@@ -244,15 +252,15 @@
         "version": "1.8.9.0",
         "changelog": "Normalize messy genre tags (split compounds, fix casing/typos) and clean local genres when WriteGenres is on.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.9.0/MusicFin_1.8.9.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.9.0/MusicFin_1.8.9.0.zip",
         "checksum": "47267ba7a1ba2200e40da9b4cc71e99b",
         "timestamp": "2026-09-14T15:15:16Z"
       },
       {
         "version": "1.8.8.0",
-        "changelog": "Keep ExplicitFin album marks when writing names; prefer exact artist matches (Femtanyl vs Fentanyl).",
+        "changelog": "Keep ExplicitTagShelf album marks when writing names; prefer exact artist matches (Femtanyl vs Fentanyl).",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.8.0/MusicFin_1.8.8.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.8.0/MusicFin_1.8.8.0.zip",
         "checksum": "663cb1b1f8a7358402c76c1170dac814",
         "timestamp": "2026-09-12T19:21:36Z"
       },
@@ -260,7 +268,7 @@
         "version": "1.8.7.0",
         "changelog": "Default schedule: weekly, Sunday at 2:00 AM.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.7.0/MusicFin_1.8.7.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.7.0/MusicFin_1.8.7.0.zip",
         "checksum": "bfbf7bc7181387b37aa594ad5edeafea",
         "timestamp": "2026-09-03T01:39:08Z"
       },
@@ -268,7 +276,7 @@
         "version": "1.8.6.0",
         "changelog": "Write matched album covers from catalog providers (Deezer, iTunes, Discogs, MusicBrainz CAA).",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.6.0/MusicFin_1.8.6.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.6.0/MusicFin_1.8.6.0.zip",
         "checksum": "9b0fa1e8a8c67cec43784a5d9687c1f5",
         "timestamp": "2026-08-29T18:51:13Z"
       },
@@ -276,7 +284,7 @@
         "version": "1.8.5.0",
         "changelog": "Normalize arrow punctuation in UI copy and logs.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.5.0/MusicFin_1.8.5.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.5.0/MusicFin_1.8.5.0.zip",
         "checksum": "438e779754313b25306fe0c380eaf664",
         "timestamp": "2026-08-29T16:26:23Z"
       },
@@ -284,7 +292,7 @@
         "version": "1.8.4.0",
         "changelog": "Shorten catalog description.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.4.0/MusicFin_1.8.4.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.4.0/MusicFin_1.8.4.0.zip",
         "checksum": "21e753663ab80a59df8dc71c1eee43bd",
         "timestamp": "2026-08-29T02:09:07Z"
       },
@@ -292,7 +300,7 @@
         "version": "1.8.3.0",
         "changelog": "Normalize plugin version to four-part SemVer (1.8.3.0).",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.3.0/MusicFin_1.8.3.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.3.0/MusicFin_1.8.3.0.zip",
         "checksum": "24c14ba492a64a563bde7743c1853d7c",
         "timestamp": "2026-08-29T01:58:22Z"
       },
@@ -300,7 +308,7 @@
         "version": "1.8.2.0",
         "changelog": "Refresh branding: flatter logo + 1920x1080 backdrop assets.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.2/MusicFin_1.8.2.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.2/MusicFin_1.8.2.zip",
         "checksum": "a76b81d21f5c1d55b65994f61cb11d92",
         "timestamp": "2026-08-29T01:46:58Z"
       },
@@ -308,7 +316,7 @@
         "version": "1.8.1.0",
         "changelog": "Add plugin catalog icon.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8.1/MusicFin_1.8.1.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8.1/MusicFin_1.8.1.zip",
         "checksum": "d83c8d1c09b2c9847cd253e828b4991f",
         "timestamp": "2026-08-29T01:39:21Z"
       },
@@ -316,7 +324,7 @@
         "version": "1.8.0.0",
         "changelog": "Fetch real Deezer disc/track positions for multi-disc albums; tighten deluxe detection so album tracks are not stolen by singles (mxmtoon the masquerade).",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.8/MusicFin_1.8.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.8/MusicFin_1.8.zip",
         "checksum": "9220cc232331075eaabf9cb7bf0b5114",
         "timestamp": "2026-08-28T19:03:22Z"
       },
@@ -324,7 +332,7 @@
         "version": "1.7.0.0",
         "changelog": "Write disc numbers (ParentIndexNumber) from catalog sources including Deezer disk_number so tracks no longer float above Disc 1.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.7/MusicFin_1.7.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.7/MusicFin_1.7.zip",
         "checksum": "7a3fe91d154e64c6e97793c539b598d9",
         "timestamp": "2026-08-28T18:54:50Z"
       },
@@ -332,7 +340,7 @@
         "version": "1.6.0.0",
         "changelog": "Smarter title folding (&/and, compound words, stylized digits) and title-band + fitness so short local titles land on the studio album instead of live/edit singles.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.6/MusicFin_1.6.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.6/MusicFin_1.6.zip",
         "checksum": "832c14e7bc2669fa27b209781fea9c2d",
         "timestamp": "2026-08-28T18:45:53Z"
       },
@@ -340,7 +348,7 @@
         "version": "1.5.0.0",
         "changelog": "Album fitness = matchCount \u00d7 completion\u00b2 so full albums beat half-covered tour sets/collections while fully owned EPs still rank above sparse big releases.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.5/MusicFin_1.5.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.5/MusicFin_1.5.zip",
         "checksum": "594da203700b6ec309b091538bc8935f",
         "timestamp": "2026-08-28T18:31:58Z"
       },
@@ -348,7 +356,7 @@
         "version": "1.4.0.0",
         "changelog": "Prefer album coverage ratio over raw hit count; keep base albums when bonus tracks are owned as singles (Dreamland / TobyMac Collection fixes).",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.4/MusicFin_1.4.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.4/MusicFin_1.4.zip",
         "checksum": "8c393a0429bb1c4f92c8bd3f33aa35d4",
         "timestamp": "2026-08-28T17:41:23Z"
       },
@@ -356,7 +364,7 @@
         "version": "1.3.0.0",
         "changelog": "Singles compete with albums on coverage percent so a 1/1 single beats a 1/20 album hit.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.3/MusicFin_1.3.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.3/MusicFin_1.3.zip",
         "checksum": "5571301d7c328a7c5dc89f1386682560",
         "timestamp": "2026-08-28T16:53:07Z"
       },
@@ -364,7 +372,7 @@
         "version": "1.2.0.0",
         "changelog": "Per-track album assignment: prefer exact studio titles over live variants; strip trailing artist from titles; case-insensitive artist grouping.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.2/MusicFin_1.2.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.2/MusicFin_1.2.zip",
         "checksum": "bce1d8ddb77cffd1ad9b2c0be5b15fad",
         "timestamp": "2026-08-28T16:33:10Z"
       },
@@ -372,7 +380,7 @@
         "version": "1.1.0.0",
         "changelog": "Separate plugin identity (new GUID) from the old Smarter Music Tagging install.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/MusicFin/releases/download/v1.1/MusicFin_1.1.zip",
+        "sourceUrl": "https://github.com/TidBits16/MusicTagShelf/releases/download/v1.1/MusicFin_1.1.zip",
         "checksum": "cb4a6dbf8ef37a4a91a601ddf94133ac",
         "timestamp": "2026-08-28T15:37:29Z"
       }
@@ -380,18 +388,26 @@
   },
   {
     "guid": "f41c8e2d-6b3a-4d9e-8f1c-0a2b3c4d5e6f",
-    "name": "ExplicitFin: Mark Your Songs",
-    "description": "Adds explicit symbols to track and album titles.",
+    "name": "ExplicitTagShelf: Mark Your Songs",
+    "description": "Adds explicit symbols to track titles.",
     "overview": "Adds explicit symbols to track titles.",
     "owner": "TidBits16",
     "category": "Metadata",
-    "imageUrl": "https://raw.githubusercontent.com/TidBits16/ExplicitFin/main/backdrop.svg",
+    "imageUrl": "https://raw.githubusercontent.com/TidBits16/ExplicitTagShelf/main/backdrop.svg",
     "versions": [
+      {
+        "version": "2.2.0.0",
+        "changelog": "Rebrand from ExplicitFin to ExplicitTagShelf; new TagShelf logo; migrate HTTP cache folder.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitTagShelf/releases/download/v2.2.0.0/ExplicitTagShelf_2.2.0.0.zip",
+        "checksum": "7fd93762972482bc5badc182c85cd58a",
+        "timestamp": "2026-09-18T16:05:39Z"
+      },
       {
         "version": "2.1.14.0",
         "changelog": "Simultaneous-run safety: preserve explicit marks on album renames, album re-mark when tracks seen, shared Deezer/MusicBrainz pace, staggered Sunday defaults.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v2.1.14.0/explicitfin_2.1.14.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitTagShelf/releases/download/v2.1.14.0/explicitfin_2.1.14.0.zip",
         "checksum": "c1fd0334e02cf06a885a982100f88b72",
         "timestamp": "2026-09-17T15:05:28Z"
       },
@@ -399,7 +415,7 @@
         "version": "2.1.13.0",
         "changelog": "Settings page polish: clearer helpers, grouped toggles, styled Advanced / force-refresh sections.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v2.1.13.0/explicitfin_2.1.13.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitTagShelf/releases/download/v2.1.13.0/explicitfin_2.1.13.0.zip",
         "checksum": "a51dc9ffe33697e94ed4a361eba4989a",
         "timestamp": "2026-09-17T13:33:13Z"
       },
@@ -407,7 +423,7 @@
         "version": "2.1.12.0",
         "changelog": "Skip undecided explicit lookups until cache TTL; cache HTTP 404s.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v2.1.12.0/explicitfin_2.1.12.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitTagShelf/releases/download/v2.1.12.0/explicitfin_2.1.12.0.zip",
         "checksum": "6c6de760fe7a87875b37b1709c34ac33",
         "timestamp": "2026-09-16T15:27:25Z"
       },
@@ -415,55 +431,55 @@
         "version": "2.1.11.0",
         "changelog": "HTTP caches last 30 days; force scan clears cache; expired lookups re-fetch individually.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v2.1.11.0/explicitfin_2.1.11.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitTagShelf/releases/download/v2.1.11.0/explicitfin_2.1.11.0.zip",
         "checksum": "a0c6978fa752cf4e567a99fafa1e18b9",
         "timestamp": "2026-09-16T15:07:35Z"
       },
       {
         "version": "2.1.10.0",
-        "changelog": "Shared FinCommon HTTP cache/client; simplify title marker stripping.",
+        "changelog": "Shared TagShelfCommon HTTP cache/client; simplify title marker stripping.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v2.1.10.0/explicitfin_2.1.10.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitTagShelf/releases/download/v2.1.10.0/explicitfin_2.1.10.0.zip",
         "checksum": "c76e4aede7ba5f0e0ab5287a9bfe7d86",
         "timestamp": "2026-09-15T14:30:23Z"
       },
       {
         "version": "2.1.9.0",
-        "changelog": "Solid primary backdrop; horizontal logo+title lockup; italic FinFamily tagline.",
+        "changelog": "Solid primary backdrop; horizontal logo+title lockup; italic TagShelf tagline.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v2.1.9.0/explicitfin_2.1.9.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitTagShelf/releases/download/v2.1.9.0/explicitfin_2.1.9.0.zip",
         "checksum": "3aa89969f385f10cead30db2fc50588e",
         "timestamp": "2026-09-14T16:30:34Z"
       },
       {
         "version": "2.1.8.0",
-        "changelog": "Horizontal logo+title lockup; full-opacity FinFamily tagline under title.",
+        "changelog": "Horizontal logo+title lockup; full-opacity TagShelf tagline under title.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v2.1.8.0/explicitfin_2.1.8.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitTagShelf/releases/download/v2.1.8.0/explicitfin_2.1.8.0.zip",
         "checksum": "d6c499175434b15d30bbb27fc8dc8cce",
         "timestamp": "2026-09-14T16:24:41Z"
       },
       {
         "version": "2.1.7.0",
-        "changelog": "Move FinFamily tagline below title on backdrop.",
+        "changelog": "Move TagShelf tagline below title on backdrop.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v2.1.7.0/explicitfin_2.1.7.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitTagShelf/releases/download/v2.1.7.0/explicitfin_2.1.7.0.zip",
         "checksum": "11899370de05ae86539c31c7191499f1",
         "timestamp": "2026-09-14T16:22:35Z"
       },
       {
         "version": "2.1.6.0",
-        "changelog": "Add FinFamily tagline under logo on backdrop.",
+        "changelog": "Add TagShelf tagline under logo on backdrop.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v2.1.6.0/explicitfin_2.1.6.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitTagShelf/releases/download/v2.1.6.0/explicitfin_2.1.6.0.zip",
         "checksum": "b0deca7160e243d837608ca20cc00674",
         "timestamp": "2026-09-14T16:14:50Z"
       },
       {
         "version": "2.1.5.0",
-        "changelog": "Center logo + title on backdrop; fix ExplicitFin cutoff.",
+        "changelog": "Center logo + title on backdrop; fix ExplicitTagShelf cutoff.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v2.1.5.0/explicitfin_2.1.5.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitTagShelf/releases/download/v2.1.5.0/explicitfin_2.1.5.0.zip",
         "checksum": "0c7f1c23a842dc1c42353cfcf7b930e2",
         "timestamp": "2026-09-14T16:12:51Z"
       },
@@ -471,7 +487,7 @@
         "version": "2.1.4.0",
         "changelog": "Keep - prefix on scheduled task only (plugin catalog name unchanged).",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v2.1.4.0/explicitfin_2.1.4.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitTagShelf/releases/download/v2.1.4.0/explicitfin_2.1.4.0.zip",
         "checksum": "ddf7470995f3bb8ee163e2d1c7acb1f5",
         "timestamp": "2026-09-14T15:42:30Z"
       },
@@ -479,7 +495,7 @@
         "version": "2.1.3.0",
         "changelog": "Sort plugin/task name to the bottom with a - prefix.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v2.1.3.0/explicitfin_2.1.3.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitTagShelf/releases/download/v2.1.3.0/explicitfin_2.1.3.0.zip",
         "checksum": "acdacc510995e2f83dca32d024506e82",
         "timestamp": "2026-09-14T15:24:53Z"
       },
@@ -487,7 +503,7 @@
         "version": "2.1.2.0",
         "changelog": "Clearer force-button labels, red destructive actions, and shorter help text.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v2.1.2.0/explicitfin_2.1.2.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitTagShelf/releases/download/v2.1.2.0/explicitfin_2.1.2.0.zip",
         "checksum": "32c4dfa01e469ce85474553fcc7bb966",
         "timestamp": "2026-09-03T01:55:53Z"
       },
@@ -495,7 +511,7 @@
         "version": "2.1.1.0",
         "changelog": "Default schedule: daily at 2:00 AM.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v2.1.1.0/explicitfin_2.1.1.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitTagShelf/releases/download/v2.1.1.0/explicitfin_2.1.1.0.zip",
         "checksum": "33ff7cfbdcac5b701408a756e6a332ad",
         "timestamp": "2026-09-03T01:39:08Z"
       },
@@ -503,7 +519,7 @@
         "version": "2.1.0.0",
         "changelog": "Mark albums from Deezer or a track threshold, keep hand-added marks, skip decided tracks on scheduled runs, and force-refresh from Advanced.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v2.1.0.0/explicitfin_2.1.0.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitTagShelf/releases/download/v2.1.0.0/explicitfin_2.1.0.0.zip",
         "checksum": "e60d901989abbd7a3890dd7e79050a1f",
         "timestamp": "2026-09-03T00:59:01Z"
       },
@@ -511,7 +527,7 @@
         "version": "2.0.10.0",
         "changelog": "Normalize arrow punctuation in UI copy and logs.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v2.0.10.0/explicitfin_2.0.10.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitTagShelf/releases/download/v2.0.10.0/explicitfin_2.0.10.0.zip",
         "checksum": "acca03456027d9e9dab95cff3ed64762",
         "timestamp": "2026-08-29T16:26:28Z"
       },
@@ -519,7 +535,7 @@
         "version": "2.0.9.0",
         "changelog": "Shorten catalog description.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v2.0.9.0/explicitfin_2.0.9.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitTagShelf/releases/download/v2.0.9.0/explicitfin_2.0.9.0.zip",
         "checksum": "24d4081a66f0df4a92000a9f92135db7",
         "timestamp": "2026-08-29T02:09:11Z"
       },
@@ -527,7 +543,7 @@
         "version": "2.0.8.0",
         "changelog": "Use 1920x1080 backdrop SVG as the Jellyfin plugin catalog icon.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v2.0.8.0/explicitfin_2.0.8.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitTagShelf/releases/download/v2.0.8.0/explicitfin_2.0.8.0.zip",
         "checksum": "9fc1ad7abf929955a5d536db9b578da4",
         "timestamp": "2026-08-29T01:54:09Z"
       },
@@ -535,7 +551,7 @@
         "version": "2.0.7.0",
         "changelog": "Refresh branding: flatter logo + 1920x1080 backdrop assets.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v2.0.7.0/explicitfin_2.0.7.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitTagShelf/releases/download/v2.0.7.0/explicitfin_2.0.7.0.zip",
         "checksum": "3c2b3e4485ca363596d33a502fe6aed6",
         "timestamp": "2026-08-29T01:47:00Z"
       },
@@ -543,7 +559,7 @@
         "version": "2.0.6.0",
         "changelog": "Add plugin catalog icon.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v2.0.6.0/explicitfin_2.0.6.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitTagShelf/releases/download/v2.0.6.0/explicitfin_2.0.6.0.zip",
         "checksum": "420c76d0f177c1505e234b8057b33bc9",
         "timestamp": "2026-08-29T01:39:23Z"
       },
@@ -551,15 +567,15 @@
         "version": "2.0.5.0",
         "changelog": "Faster album-scoped Deezer matching with HTTP cache; keep local titles; config cleanup and Remove symbol tool.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v2.0.5.0/explicitfin_2.0.5.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitTagShelf/releases/download/v2.0.5.0/explicitfin_2.0.5.0.zip",
         "checksum": "1321f2fc318bab8bbc0600048c7d13d4",
         "timestamp": "2026-08-29T00:42:53Z"
       },
       {
         "version": "2.0.4.0",
-        "changelog": "Shorten display title to ExplicitFin: Mark Your Songs.",
+        "changelog": "Shorten display title to ExplicitTagShelf: Mark Your Songs.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v2.0.4.0/explicitfin_2.0.4.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitTagShelf/releases/download/v2.0.4.0/explicitfin_2.0.4.0.zip",
         "checksum": "ab167898baf14f7a7dfe22c7e5e050f1",
         "timestamp": "2026-08-28T21:02:59Z"
       },
@@ -567,23 +583,23 @@
         "version": "2.0.3.0",
         "changelog": "Add optional Jellyfin tags on explicit tracks (default Explicit) for library filtering.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v2.0.3.0/explicitfin_2.0.3.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitTagShelf/releases/download/v2.0.3.0/explicitfin_2.0.3.0.zip",
         "checksum": "4ff150451dbbf216fdfb4e92ee9a0f4e",
         "timestamp": "2026-08-28T20:56:11Z"
       },
       {
         "version": "2.0.2.0",
-        "changelog": "Rename display title to ExplicitFin: Visually Mark Your Songs.",
+        "changelog": "Rename display title to ExplicitTagShelf: Visually Mark Your Songs.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v2.0.2.0/explicitfin_2.0.2.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitTagShelf/releases/download/v2.0.2.0/explicitfin_2.0.2.0.zip",
         "checksum": "43b4549846bb60a59e6f8e8f475be658",
         "timestamp": "2026-08-28T20:52:38Z"
       },
       {
         "version": "2.0.1.0",
-        "changelog": "MusicFin-style settings: sortable providers, MusicBrainz contact, and configurable min similarity.",
+        "changelog": "MusicTagShelf-style settings: sortable providers, MusicBrainz contact, and configurable min similarity.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v2.0.1.0/explicitfin_2.0.1.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitTagShelf/releases/download/v2.0.1.0/explicitfin_2.0.1.0.zip",
         "checksum": "a2ba5f12e4fc7546e89f66e4eb9fcbab",
         "timestamp": "2026-08-28T20:48:58Z"
       },
@@ -591,15 +607,15 @@
         "version": "2.0.0.0",
         "changelog": "Simplify to title marking: Deezer\u2192MusicBrainz search, dual-version preference, change log. Drop tags, album marks, Apple Music, playlist repair, disk cache.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v2.0.0.0/explicitfin_2.0.0.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitTagShelf/releases/download/v2.0.0.0/explicitfin_2.0.0.0.zip",
         "checksum": "bb40b93f34b695d7eee46685f68ec609",
         "timestamp": "2026-08-28T20:45:05Z"
       },
       {
         "version": "1.2.0.0",
-        "changelog": "Repository renamed to ExplicitFin on GitHub.",
+        "changelog": "Repository renamed to ExplicitTagShelf on GitHub.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ExplicitFin/releases/download/v1.2.0.0/explicitfin_1.2.0.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ExplicitTagShelf/releases/download/v1.2.0.0/explicitfin_1.2.0.0.zip",
         "checksum": "b1aebb671d4a74e5862a0c564e28f082",
         "timestamp": "2026-08-24T17:35:00Z"
       }
@@ -607,18 +623,26 @@
   },
   {
     "guid": "59dd884e-2511-4dbf-8f89-761c3e2e0dee",
-    "name": "LyricFin: Get Timed Lyrics",
-    "description": "Fetches timed LRC lyrics from LRCLIB for your music library.",
-    "overview": "Timed LRC lyrics via LRCLIB.",
+    "name": "LyricTagShelf: Get Timed Lyrics",
+    "description": "Timed LRC lyrics.",
+    "overview": "Timed LRC lyrics.",
     "owner": "TidBits16",
     "category": "Metadata",
-    "imageUrl": "https://raw.githubusercontent.com/TidBits16/LyricFin/main/backdrop.svg",
+    "imageUrl": "https://raw.githubusercontent.com/TidBits16/LyricTagShelf/main/backdrop.svg",
     "versions": [
+      {
+        "version": "1.3.0.0",
+        "changelog": "Rebrand from LyricFin to LyricTagShelf; new TagShelf logo; migrate HTTP cache folder.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TidBits16/LyricTagShelf/releases/download/v1.3.0.0/LyricTagShelf_1.3.0.0.zip",
+        "checksum": "6d7ccbbb8297c7c247b08de6c02f6a34",
+        "timestamp": "2026-09-18T16:05:40Z"
+      },
       {
         "version": "1.2.18.0",
         "changelog": "Simultaneous-run safety: preserve explicit marks on album renames, album re-mark when tracks seen, shared Deezer/MusicBrainz pace, staggered Sunday defaults.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.2.18.0/lyricfin_1.2.18.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/LyricTagShelf/releases/download/v1.2.18.0/lyricfin_1.2.18.0.zip",
         "checksum": "95cadbda3b582b85c2186872f2f0fed0",
         "timestamp": "2026-09-17T15:05:19Z"
       },
@@ -626,7 +650,7 @@
         "version": "1.2.17.0",
         "changelog": "Settings page polish: clearer helpers, grouped toggles, styled Advanced / force-refresh sections.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.2.17.0/lyricfin_1.2.17.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/LyricTagShelf/releases/download/v1.2.17.0/lyricfin_1.2.17.0.zip",
         "checksum": "710cd55d2badae2d4cdeec68b854b13d",
         "timestamp": "2026-09-17T13:33:03Z"
       },
@@ -634,7 +658,7 @@
         "version": "1.2.16.0",
         "changelog": "Treat apostrophes as word separators (shit's \u2192 shit, fuckin' \u2192 fuckin); -in still matches -ing list entries.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.2.16.0/lyricfin_1.2.16.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/LyricTagShelf/releases/download/v1.2.16.0/lyricfin_1.2.16.0.zip",
         "checksum": "f8cba4b204cd318db06bbe8e4cf2925e",
         "timestamp": "2026-09-16T21:15:29Z"
       },
@@ -642,7 +666,7 @@
         "version": "1.2.15.0",
         "changelog": "Censor fuckin'/motherfuckin' (trailing apostrophes); -in forms match -ing list entries; add motherfuckin/bitchin/shittin to defaults.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.2.15.0/lyricfin_1.2.15.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/LyricTagShelf/releases/download/v1.2.15.0/lyricfin_1.2.15.0.zip",
         "checksum": "eff3d09dc1369af9f53154c8801d59ba",
         "timestamp": "2026-09-16T21:08:21Z"
       },
@@ -650,7 +674,7 @@
         "version": "1.2.14.0",
         "changelog": "Skip tracks with no lyrics until cache TTL; cache LRCLIB 404s.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.2.14.0/lyricfin_1.2.14.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/LyricTagShelf/releases/download/v1.2.14.0/lyricfin_1.2.14.0.zip",
         "checksum": "7608d177fe3ef0af5d891804cdcd78cd",
         "timestamp": "2026-09-16T15:27:22Z"
       },
@@ -658,15 +682,15 @@
         "version": "1.2.13.0",
         "changelog": "HTTP caches last 30 days; force fetch clears LRCLIB cache; expired lookups re-fetch individually.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.2.13.0/lyricfin_1.2.13.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/LyricTagShelf/releases/download/v1.2.13.0/lyricfin_1.2.13.0.zip",
         "checksum": "5efabe8fb9e800f0b79c099db6e1bcaa",
         "timestamp": "2026-09-16T15:07:32Z"
       },
       {
         "version": "1.2.12.0",
-        "changelog": "Shared FinCommon HTTP cache/client; simplify title marker stripping.",
+        "changelog": "Shared TagShelfCommon HTTP cache/client; simplify title marker stripping.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.2.12.0/lyricfin_1.2.12.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/LyricTagShelf/releases/download/v1.2.12.0/lyricfin_1.2.12.0.zip",
         "checksum": "017f867aa6b93200027cb5c9a68be767",
         "timestamp": "2026-09-15T14:30:11Z"
       },
@@ -674,47 +698,47 @@
         "version": "1.2.11.0",
         "changelog": "Whole-word blacklist censoring only (split on spaces/hyphens \u2014 ass does not match glass). Dropped stem/Root matching and the whitelist; add missed words in settings. Defaults include damn/dammit.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.2.11.0/LyricFin_1.2.11.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/LyricTagShelf/releases/download/v1.2.11.0/LyricFin_1.2.11.0.zip",
         "checksum": "58b1b522ca2a0bab0d55f63b6add3510",
         "timestamp": "2026-09-15T13:22:07Z"
       },
       {
         "version": "1.2.10.0",
-        "changelog": "Solid primary backdrop; horizontal logo+title lockup; italic FinFamily tagline.",
+        "changelog": "Solid primary backdrop; horizontal logo+title lockup; italic TagShelf tagline.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.2.10.0/lyricfin_1.2.10.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/LyricTagShelf/releases/download/v1.2.10.0/lyricfin_1.2.10.0.zip",
         "checksum": "acbca0e2e9239e76968789dfcc4be868",
         "timestamp": "2026-09-14T16:30:39Z"
       },
       {
         "version": "1.2.9.0",
-        "changelog": "Horizontal logo+title lockup; full-opacity FinFamily tagline under title.",
+        "changelog": "Horizontal logo+title lockup; full-opacity TagShelf tagline under title.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.2.9.0/lyricfin_1.2.9.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/LyricTagShelf/releases/download/v1.2.9.0/lyricfin_1.2.9.0.zip",
         "checksum": "12871e8119cf4d713887d225ff16d2b7",
         "timestamp": "2026-09-14T16:24:46Z"
       },
       {
         "version": "1.2.8.0",
-        "changelog": "Move FinFamily tagline below title on backdrop.",
+        "changelog": "Move TagShelf tagline below title on backdrop.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.2.8.0/lyricfin_1.2.8.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/LyricTagShelf/releases/download/v1.2.8.0/lyricfin_1.2.8.0.zip",
         "checksum": "93ab5bcd067a0c59bb84fc89e48b01d1",
         "timestamp": "2026-09-14T16:22:53Z"
       },
       {
         "version": "1.2.7.0",
-        "changelog": "Add FinFamily tagline under logo on backdrop.",
+        "changelog": "Add TagShelf tagline under logo on backdrop.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.2.7.0/lyricfin_1.2.7.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/LyricTagShelf/releases/download/v1.2.7.0/lyricfin_1.2.7.0.zip",
         "checksum": "ec900433e68f621df68c3d2e5caa7217",
         "timestamp": "2026-09-14T16:14:54Z"
       },
       {
         "version": "1.2.6.0",
-        "changelog": "Center logo + title on backdrop; fix ExplicitFin cutoff.",
+        "changelog": "Center logo + title on backdrop; fix ExplicitTagShelf cutoff.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.2.6.0/lyricfin_1.2.6.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/LyricTagShelf/releases/download/v1.2.6.0/lyricfin_1.2.6.0.zip",
         "checksum": "a08c7dc3fdcfaf8977bf7097e4f0e9b7",
         "timestamp": "2026-09-14T16:12:56Z"
       },
@@ -722,7 +746,7 @@
         "version": "1.2.5.0",
         "changelog": "Keep - prefix on scheduled task only (plugin catalog name unchanged).",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.2.5.0/lyricfin_1.2.5.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/LyricTagShelf/releases/download/v1.2.5.0/lyricfin_1.2.5.0.zip",
         "checksum": "2d22e65a20e559100923dc198c5ca97a",
         "timestamp": "2026-09-14T15:42:34Z"
       },
@@ -730,7 +754,7 @@
         "version": "1.2.4.0",
         "changelog": "Sort plugin/task name to the bottom with a - prefix.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.2.4.0/lyricfin_1.2.4.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/LyricTagShelf/releases/download/v1.2.4.0/lyricfin_1.2.4.0.zip",
         "checksum": "270835abd2db851428c126d067642a0b",
         "timestamp": "2026-09-14T15:24:57Z"
       },
@@ -738,7 +762,7 @@
         "version": "1.2.3.0",
         "changelog": "More resilient LRCLIB matching: album-less search, duration-less get, strip trailing artist, retry 503s.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.2.3.0/lyricfin_1.2.3.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/LyricTagShelf/releases/download/v1.2.3.0/lyricfin_1.2.3.0.zip",
         "checksum": "a02e775af7b558e696d5d718bce1bc47",
         "timestamp": "2026-09-12T19:29:03Z"
       },
@@ -746,7 +770,7 @@
         "version": "1.2.2.0",
         "changelog": "Blacklist/whitelist word lists with Root stems; short stems only match at word start; clearer whitelist help.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.2.2.0/lyricfin_1.2.2.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/LyricTagShelf/releases/download/v1.2.2.0/lyricfin_1.2.2.0.zip",
         "checksum": "36907a628c7b8deb29080bebece69970",
         "timestamp": "2026-09-07T17:45:17Z"
       },
@@ -754,7 +778,7 @@
         "version": "1.2.1.0",
         "changelog": "Avoid short-root false positives (e.g. ass inside glass).",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.2.1.0/lyricfin_1.2.1.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/LyricTagShelf/releases/download/v1.2.1.0/lyricfin_1.2.1.0.zip",
         "checksum": "27c9b544e3563f813172ee6593d435ff",
         "timestamp": "2026-09-03T02:12:53Z"
       },
@@ -762,7 +786,7 @@
         "version": "1.2.0.0",
         "changelog": "Root censor mode (f***er), Words/Roots word list, and clearer force-button warnings.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.2.0.0/lyricfin_1.2.0.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/LyricTagShelf/releases/download/v1.2.0.0/lyricfin_1.2.0.0.zip",
         "checksum": "47cdcc306070bdecdc25b48899f80b89",
         "timestamp": "2026-09-03T01:55:52Z"
       },
@@ -770,7 +794,7 @@
         "version": "1.1.0.0",
         "changelog": "Optional swear-word censoring, and weekly Sunday 2:00 AM default schedule.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.1.0.0/lyricfin_1.1.0.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/LyricTagShelf/releases/download/v1.1.0.0/lyricfin_1.1.0.0.zip",
         "checksum": "c1ee2e8a1e9c2e0d75024695db561dce",
         "timestamp": "2026-09-03T01:39:09Z"
       },
@@ -778,7 +802,7 @@
         "version": "1.0.8.0",
         "changelog": "Use a single scheduled task; force-fetch from settings queues that same task.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.0.8.0/lyricfin_1.0.8.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/LyricTagShelf/releases/download/v1.0.8.0/lyricfin_1.0.8.0.zip",
         "checksum": "41caeec4f27bd4a2b6771c3eaef8b60b",
         "timestamp": "2026-09-03T00:59:02Z"
       },
@@ -786,15 +810,15 @@
         "version": "1.0.7.0",
         "changelog": "Normalize arrow punctuation in UI copy and logs.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.0.7.0/lyricfin_1.0.7.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/LyricTagShelf/releases/download/v1.0.7.0/lyricfin_1.0.7.0.zip",
         "checksum": "fa6b33bc2d19ff567a869451712db416",
         "timestamp": "2026-08-29T16:26:33Z"
       },
       {
         "version": "1.0.6.0",
-        "changelog": "Add MusicFin-style Ignore special characters / phrases for lyric title lookup.",
+        "changelog": "Add MusicTagShelf-style Ignore special characters / phrases for lyric title lookup.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.0.6.0/lyricfin_1.0.6.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/LyricTagShelf/releases/download/v1.0.6.0/lyricfin_1.0.6.0.zip",
         "checksum": "4e6d55b8bc0f4cfbfc198524f613f6dd",
         "timestamp": "2026-08-29T02:14:38Z"
       },
@@ -802,7 +826,7 @@
         "version": "1.0.5.0",
         "changelog": "Default scheduled lyric fetch interval is once per week.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.0.5.0/lyricfin_1.0.5.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/LyricTagShelf/releases/download/v1.0.5.0/lyricfin_1.0.5.0.zip",
         "checksum": "b04bb1b131949a1775ddae6023d461c7",
         "timestamp": "2026-08-29T02:08:01Z"
       },
@@ -810,7 +834,7 @@
         "version": "1.0.4.0",
         "changelog": "Skip (Instrumental) titles by default; force fetch clears their lyrics. Queue force-all as a scheduled task so the UI no longer times out.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.0.4.0/lyricfin_1.0.4.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/LyricTagShelf/releases/download/v1.0.4.0/lyricfin_1.0.4.0.zip",
         "checksum": "d7ce963cde04a9750229cc896c6b8d86",
         "timestamp": "2026-08-29T02:07:36Z"
       },
@@ -818,7 +842,7 @@
         "version": "1.0.3.0",
         "changelog": "Use 1920x1080 backdrop SVG as the Jellyfin plugin catalog icon.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.0.3.0/lyricfin_1.0.3.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/LyricTagShelf/releases/download/v1.0.3.0/lyricfin_1.0.3.0.zip",
         "checksum": "38ab6f747f71ccca455c79e2b0c7dc2d",
         "timestamp": "2026-08-29T01:54:13Z"
       },
@@ -826,7 +850,7 @@
         "version": "1.0.2.0",
         "changelog": "Refresh branding: flatter logo + 1920x1080 backdrop assets.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.0.2.0/lyricfin_1.0.2.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/LyricTagShelf/releases/download/v1.0.2.0/lyricfin_1.0.2.0.zip",
         "checksum": "4f843dbdb1a825fcc75ba8df5cba0e88",
         "timestamp": "2026-08-29T01:47:01Z"
       },
@@ -834,7 +858,7 @@
         "version": "1.0.1.0",
         "changelog": "Add plugin catalog icon.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.0.1.0/lyricfin_1.0.1.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/LyricTagShelf/releases/download/v1.0.1.0/lyricfin_1.0.1.0.zip",
         "checksum": "ce7d558e56f24883708e72aa20deb293",
         "timestamp": "2026-08-29T01:39:24Z"
       },
@@ -842,7 +866,7 @@
         "version": "1.0.0.0",
         "changelog": "Initial release: missing-only scheduled task, force Fetch all in settings, synced LRC preferred.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/LyricFin/releases/download/v1.0.0.0/lyricfin_1.0.0.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/LyricTagShelf/releases/download/v1.0.0.0/lyricfin_1.0.0.0.zip",
         "checksum": "b097141625a0ef53ea3b10d9d984ea86",
         "timestamp": "2026-08-29T01:11:33Z"
       }
@@ -850,18 +874,26 @@
   },
   {
     "guid": "0cad762c-9696-4573-8fa8-ad33f3e5d167",
-    "name": "ArtistFin: Know Your Artists",
-    "description": "Fills artist bios, images, and profile details.",
-    "overview": "Fills artist bios, images, and profile details.",
+    "name": "ArtistTagShelf: Know Your Artists",
+    "description": "Artist bios, images, and profile details.",
+    "overview": "Artist bios, images, and profile details.",
     "owner": "TidBits16",
     "category": "Metadata",
-    "imageUrl": "https://raw.githubusercontent.com/TidBits16/ArtistFin/main/backdrop.svg",
+    "imageUrl": "https://raw.githubusercontent.com/TidBits16/ArtistTagShelf/main/backdrop.svg",
     "versions": [
+      {
+        "version": "1.3.0.0",
+        "changelog": "Rebrand from ArtistFin to ArtistTagShelf; new TagShelf logo; migrate HTTP cache folder.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TidBits16/ArtistTagShelf/releases/download/v1.3.0.0/ArtistTagShelf_1.3.0.0.zip",
+        "checksum": "c4aaaabb747d622e0faac354351e8efb",
+        "timestamp": "2026-09-18T16:05:41Z"
+      },
       {
         "version": "1.2.14.0",
         "changelog": "Simultaneous-run safety: preserve explicit marks on album renames, album re-mark when tracks seen, shared Deezer/MusicBrainz pace, staggered Sunday defaults.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ArtistFin/releases/download/v1.2.14.0/artistfin_1.2.14.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ArtistTagShelf/releases/download/v1.2.14.0/artistfin_1.2.14.0.zip",
         "checksum": "a5905f5336ac7315e8c520ceb859e906",
         "timestamp": "2026-09-17T15:05:24Z"
       },
@@ -869,7 +901,7 @@
         "version": "1.2.13.0",
         "changelog": "Settings page polish: clearer helpers, grouped toggles, styled Advanced / force-refresh sections.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ArtistFin/releases/download/v1.2.13.0/artistfin_1.2.13.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ArtistTagShelf/releases/download/v1.2.13.0/artistfin_1.2.13.0.zip",
         "checksum": "e4f5430d1aba2ed65482f151000dadb1",
         "timestamp": "2026-09-17T13:33:08Z"
       },
@@ -877,7 +909,7 @@
         "version": "1.2.12.0",
         "changelog": "Skip artists with no usable profile until cache TTL; cache HTTP 404s.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ArtistFin/releases/download/v1.2.12.0/artistfin_1.2.12.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ArtistTagShelf/releases/download/v1.2.12.0/artistfin_1.2.12.0.zip",
         "checksum": "91442fd27c7929f3707f253560c97449",
         "timestamp": "2026-09-16T15:27:23Z"
       },
@@ -885,63 +917,63 @@
         "version": "1.2.11.0",
         "changelog": "HTTP caches last 30 days; force refresh clears cache; expired lookups re-fetch individually.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ArtistFin/releases/download/v1.2.11.0/artistfin_1.2.11.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ArtistTagShelf/releases/download/v1.2.11.0/artistfin_1.2.11.0.zip",
         "checksum": "18fd80df205e96327d73619f818e0bce",
         "timestamp": "2026-09-16T15:07:34Z"
       },
       {
         "version": "1.2.10.0",
-        "changelog": "Shared FinCommon HTTP cache/client.",
+        "changelog": "Shared TagShelfCommon HTTP cache/client.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ArtistFin/releases/download/v1.2.10.0/artistfin_1.2.10.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ArtistTagShelf/releases/download/v1.2.10.0/artistfin_1.2.10.0.zip",
         "checksum": "399bf70c442146758264948d213b85b4",
         "timestamp": "2026-09-15T14:30:18Z"
       },
       {
         "version": "1.2.9.0",
-        "changelog": "Stop writing artist genres (MusicFin now rolls track genres up to artists instead).",
+        "changelog": "Stop writing artist genres (MusicTagShelf now rolls track genres up to artists instead).",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ArtistFin/releases/download/v1.2.9.0/ArtistFin_1.2.9.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ArtistTagShelf/releases/download/v1.2.9.0/ArtistFin_1.2.9.0.zip",
         "checksum": "b9ef971eb9a9f59e190e30185844103b",
         "timestamp": "2026-09-15T13:29:13Z"
       },
       {
         "version": "1.2.8.0",
-        "changelog": "Solid primary backdrop; horizontal logo+title lockup; italic FinFamily tagline.",
+        "changelog": "Solid primary backdrop; horizontal logo+title lockup; italic TagShelf tagline.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ArtistFin/releases/download/v1.2.8.0/artistfin_1.2.8.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ArtistTagShelf/releases/download/v1.2.8.0/artistfin_1.2.8.0.zip",
         "checksum": "c332da9b9d8f1f8be7d760f0f57661cd",
         "timestamp": "2026-09-14T16:30:43Z"
       },
       {
         "version": "1.2.7.0",
-        "changelog": "Horizontal logo+title lockup; full-opacity FinFamily tagline under title.",
+        "changelog": "Horizontal logo+title lockup; full-opacity TagShelf tagline under title.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ArtistFin/releases/download/v1.2.7.0/artistfin_1.2.7.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ArtistTagShelf/releases/download/v1.2.7.0/artistfin_1.2.7.0.zip",
         "checksum": "183f68f5755ec552ffc467c29fbd889b",
         "timestamp": "2026-09-14T16:24:51Z"
       },
       {
         "version": "1.2.6.0",
-        "changelog": "Move FinFamily tagline below title on backdrop.",
+        "changelog": "Move TagShelf tagline below title on backdrop.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ArtistFin/releases/download/v1.2.6.0/artistfin_1.2.6.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ArtistTagShelf/releases/download/v1.2.6.0/artistfin_1.2.6.0.zip",
         "checksum": "e5daacb5d4cc3f2a547231ce352d834f",
         "timestamp": "2026-09-14T16:23:06Z"
       },
       {
         "version": "1.2.5.0",
-        "changelog": "Add FinFamily tagline under logo on backdrop.",
+        "changelog": "Add TagShelf tagline under logo on backdrop.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ArtistFin/releases/download/v1.2.5.0/artistfin_1.2.5.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ArtistTagShelf/releases/download/v1.2.5.0/artistfin_1.2.5.0.zip",
         "checksum": "2756756eb311a5a4895b27f0e80265ca",
         "timestamp": "2026-09-14T16:14:45Z"
       },
       {
         "version": "1.2.4.0",
-        "changelog": "Center logo + title on backdrop; fix ExplicitFin cutoff.",
+        "changelog": "Center logo + title on backdrop; fix ExplicitTagShelf cutoff.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ArtistFin/releases/download/v1.2.4.0/artistfin_1.2.4.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ArtistTagShelf/releases/download/v1.2.4.0/artistfin_1.2.4.0.zip",
         "checksum": "cdfda0051b60f1e003ae6afc0cc8eac2",
         "timestamp": "2026-09-14T16:12:47Z"
       },
@@ -949,7 +981,7 @@
         "version": "1.2.3.0",
         "changelog": "Keep - prefix on scheduled task only (plugin catalog name unchanged).",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ArtistFin/releases/download/v1.2.3.0/artistfin_1.2.3.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ArtistTagShelf/releases/download/v1.2.3.0/artistfin_1.2.3.0.zip",
         "checksum": "e73e1f9d8782efe43c32228246c3a12a",
         "timestamp": "2026-09-14T15:42:24Z"
       },
@@ -957,7 +989,7 @@
         "version": "1.2.2.0",
         "changelog": "Sort plugin/task name to the bottom with a - prefix.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ArtistFin/releases/download/v1.2.2.0/artistfin_1.2.2.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ArtistTagShelf/releases/download/v1.2.2.0/artistfin_1.2.2.0.zip",
         "checksum": "05aada410089199f70b5de96b64d627f",
         "timestamp": "2026-09-14T15:24:48Z"
       },
@@ -965,7 +997,7 @@
         "version": "1.2.1.0",
         "changelog": "Clearer force-button label, red destructive action, and shorter help text.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ArtistFin/releases/download/v1.2.1.0/artistfin_1.2.1.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ArtistTagShelf/releases/download/v1.2.1.0/artistfin_1.2.1.0.zip",
         "checksum": "aa394a08f6e1b811a35e1cc715e532f4",
         "timestamp": "2026-09-03T01:55:55Z"
       },
@@ -973,7 +1005,7 @@
         "version": "1.2.0.0",
         "changelog": "Writes toggles, Last.fm key only when enabled, and weekly Sunday 2:00 AM default schedule.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ArtistFin/releases/download/v1.2.0.0/artistfin_1.2.0.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ArtistTagShelf/releases/download/v1.2.0.0/artistfin_1.2.0.0.zip",
         "checksum": "e18bf345880b8cc0c58a99c55276ac35",
         "timestamp": "2026-09-03T01:39:09Z"
       },
@@ -981,7 +1013,7 @@
         "version": "1.1.0.0",
         "changelog": "Last.fm short bios (API key), Deezer portraits, and one scheduled task (force refresh from settings).",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ArtistFin/releases/download/v1.1.0.0/artistfin_1.1.0.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ArtistTagShelf/releases/download/v1.1.0.0/artistfin_1.1.0.0.zip",
         "checksum": "c9c697a76acf5686632bbb23bec3ba9c",
         "timestamp": "2026-09-03T00:59:02Z"
       },
@@ -989,7 +1021,7 @@
         "version": "1.0.3.0",
         "changelog": "Drop per-field fill toggles; providers control what gets written.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ArtistFin/releases/download/v1.0.3.0/artistfin_1.0.3.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ArtistTagShelf/releases/download/v1.0.3.0/artistfin_1.0.3.0.zip",
         "checksum": "ca87c5320a4ca6a7d4dea81006391688",
         "timestamp": "2026-08-29T19:26:34Z"
       },
@@ -997,7 +1029,7 @@
         "version": "1.0.2.0",
         "changelog": "Selectable, reorderable data providers (MusicBrainz, TheAudioDB, Deezer, Wikipedia).",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ArtistFin/releases/download/v1.0.2.0/artistfin_1.0.2.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ArtistTagShelf/releases/download/v1.0.2.0/artistfin_1.0.2.0.zip",
         "checksum": "baede3b78dcb7aac081d5e36a59f4f4f",
         "timestamp": "2026-08-29T18:42:35Z"
       },
@@ -1005,7 +1037,7 @@
         "version": "1.0.1.0",
         "changelog": "Normalize arrow punctuation in UI copy and logs.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ArtistFin/releases/download/v1.0.1.0/artistfin_1.0.1.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ArtistTagShelf/releases/download/v1.0.1.0/artistfin_1.0.1.0.zip",
         "checksum": "406e591a249e64c2a497f69090dd7f85",
         "timestamp": "2026-08-29T16:26:38Z"
       },
@@ -1013,7 +1045,7 @@
         "version": "1.0.0.0",
         "changelog": "Initial release: artist bios (Wikipedia), images (Deezer + TheAudioDB), profile details (MusicBrainz + TheAudioDB).",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/TidBits16/ArtistFin/releases/download/v1.0.0.0/artistfin_1.0.0.0.zip",
+        "sourceUrl": "https://github.com/TidBits16/ArtistTagShelf/releases/download/v1.0.0.0/artistfin_1.0.0.0.zip",
         "checksum": "516b13d7c6141a2b9d6db9084d328173",
         "timestamp": "2026-08-29T12:55:02Z"
       }
